@@ -1,0 +1,14 @@
+{
+  "name": "crownvault-v14",
+  "version": "14.0.0",
+  "private": true,
+  "description": "CrownVault V14: original crown logo and one-second homepage preloader",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check assets/js/offline-data.js && node --check assets/js/app.js && node --check assets/js/home.js && node --check assets/js/catalog.js && node --check assets/js/category.js && node --check assets/js/watch.js && node --check assets/js/sell.js && node --check assets/js/account.js && node --check assets/js/contact.js && node --check assets/js/collection.js && node --check assets/js/v12.js && node --check assets/js/order.js && node --check assets/js/preloader.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

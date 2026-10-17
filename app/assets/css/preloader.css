@@ -1,0 +1,21 @@
+/* V14: the existing website logo on a brief, independent overlay. */
+.cv-preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 2500;
+  display: grid;
+  place-items: center;
+  background: #050505;
+  color: #ffffff;
+  font-family: var(--serif, Georgia, serif);
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  letter-spacing: .2em;
+  pointer-events: none;
+}
+
+.cv-preloader-logo {
+  display: block;
+  width: min(280px, 65vw);
+  height: auto;
+  object-fit: contain;
+}
